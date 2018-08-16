@@ -1,6 +1,7 @@
 <template>
     <div class="summary">
         <h1>{{welcome}}</h1>
+        <p>Qu'est ce qui court et qui se jette ?</p>
     </div>
 </template>
 
