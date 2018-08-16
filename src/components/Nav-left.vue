@@ -1,5 +1,6 @@
 <template>
     <div class="nav-left">
+        <img src="@/assets/aei_logo.jpg" alt="logo de l'AEI" width="50%">
     </div>
 </template>
 
@@ -20,6 +21,10 @@ export default {
     bottom: 0;
     width: 20%;
     height: auto;
-    background-color: #333;
+    background-color: #cdcdcd;
+}
+img {
+    border-radius: 50%;
+    margin-left: 25%
 }
 </style>

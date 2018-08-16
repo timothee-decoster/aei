@@ -1,5 +1,6 @@
 <template>
     <div class="nav-right">
+        <img src="@/assets/univ_logo.png" alt="Logo de l'Université" width="100%">
     </div>
 </template>
 
@@ -20,6 +21,6 @@ export default {
     bottom: 0;
     width: 15%;
     height: auto;
-    background-color: #333;
+    background-color: #cdcdcd;
 }
 </style>
