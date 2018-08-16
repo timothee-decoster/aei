@@ -1,12 +1,17 @@
 <template>
     <div class="nav-left">
-        <img src="@/assets/aei_logo.jpg" alt="logo de l'AEI" width="50%">
+        <img src="@/assets/aei_logo.jpg" alt="logo de l'AEI" @click="home">
     </div>
 </template>
 
 <script>
 export default {
-    name: 'NavLeft'
+    name: 'NavLeft',
+    methods: {
+        home() {
+            return this.$router.push('/');
+        }
+    }
 };
 </script>
 
@@ -24,7 +29,8 @@ export default {
     background-color: #cdcdcd;
 }
 img {
+    width: 50%;
     border-radius: 50%;
-    margin-left: 25%
+    margin-left: 25%;
 }
 </style>
