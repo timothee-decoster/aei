@@ -45,6 +45,11 @@ export default {
         selectPart(name) {
             this.select = name;
         }
+    },
+    mounted() {
+        this.$parent.$on('section-changed', () => {
+            this.select = 'event';
+        });
     }
 };
 </script>

@@ -31,6 +31,7 @@ export default {
     },
     methods: {
         selectSection(name) {
+            this.$parent.$emit('section-changed');
             this.select = name;
         }
     }
