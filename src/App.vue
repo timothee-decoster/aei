@@ -25,4 +25,7 @@ export default {
 #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
 }
+h1 {
+    text-align: center;
+}
 </style>
