@@ -1,12 +1,18 @@
 <template>
     <div class="body">
+        <Header/>
         <router-view/>
     </div>
 </template>
 
 <script>
+import Header from '@/components/Header';
+
 export default {
-    name: 'Body'
+    name: 'Body',
+    components: {
+        Header
+    }
 };
 </script>
 

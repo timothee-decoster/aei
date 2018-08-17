@@ -1,0 +1,17 @@
+<template>
+    <div class="l3">
+        <h1>Licence 3</h1>
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'L3'
+};
+</script>
+
+<style scoped>
+.l3 {
+    height: 100%;
+}
+</style>

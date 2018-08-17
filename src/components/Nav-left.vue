@@ -29,6 +29,7 @@ export default {
     background-color: #cdcdcd;
 }
 img {
+    cursor: pointer;
     width: 50%;
     border-radius: 50%;
     margin-left: 25%;
