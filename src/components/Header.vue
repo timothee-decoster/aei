@@ -31,7 +31,7 @@ img {
     cursor: pointer;
 }
 .staff {
-    width: 5vh;
+    width: 7vh;
     border-radius: 0;
     left: 1vh;
 }
