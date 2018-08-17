@@ -69,7 +69,7 @@ li {
     transform: translateX(0);
 }
 .icon {
-    width: 1rem;
+    width: 8%;
     opacity: 0;
     transition: all 0.2s;
     transform: translateX(-100%);
