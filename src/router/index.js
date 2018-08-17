@@ -6,6 +6,7 @@ import L2 from '@/components/pages/L2'
 import L3 from '@/components/pages/L3'
 import M1 from '@/components/pages/M1'
 import M2 from '@/components/pages/M2'
+import Staff from '@/components/pages/Staff'
 
 Vue.use(Router)
 
@@ -34,6 +35,10 @@ export default new Router({
     {
       path: '/M2',
       component: M2
+    },
+    {
+      path: '/Staff',
+      component: Staff
     }
   ]
 })

@@ -1,7 +1,7 @@
 <template>
     <div class="nav-left">
         <img src="@/assets/aei_logo.jpg" alt="logo de l'AEI" @click="home">
-        <ul>
+        <ul v-if="this.$route.path !== '/Staff'">
             <li @click="selectPart('event')" v-bind:class="{ selected: select === 'event' }">
                 Événements à venir
                 <svg viewBox="0 0 20 20" class="icon">
