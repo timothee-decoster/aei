@@ -20,6 +20,12 @@
                     <path d="M20 0 L10 10 L20 20"></path>
                 </svg>
             </li>
+            <li v-if="this.$route.path !== '/'" @click="selectPart('photo')" v-bind:class="{ selected: select === 'photo' }">
+                Photos
+                <svg viewBox="0 0 20 20" class="icon">
+                    <path d="M20 0 L10 10 L20 20"></path>
+                </svg>
+            </li>
         </ul>
     </div>
 </template>
