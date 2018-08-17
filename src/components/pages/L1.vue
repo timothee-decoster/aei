@@ -12,6 +12,7 @@ export default {
 
 <style scoped>
 .l1 {
+    font-size: 2.5vh;
     height: 100%;
 }
 </style>

@@ -18,6 +18,7 @@ export default {
 
 <style scoped>
 .summary {
+    font-size: 2.5vh;
     height: 100%;
 }
 </style>

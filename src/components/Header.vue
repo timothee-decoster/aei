@@ -16,7 +16,7 @@ export default {
     display: flex;
     align-items: center;
     height: 5vh;
-    border-bottom: #cdcdcd solid 0.1rem;
+    border-bottom: #cdcdcd solid 0.2vh;
 }
 img {
     position: absolute;

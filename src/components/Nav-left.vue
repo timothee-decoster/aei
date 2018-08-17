@@ -67,7 +67,6 @@ img {
     margin-left: 20%;
 }
 ul {
-    overflow: auto;
     position: absolute;
     top: 25vh;
     left: 0;

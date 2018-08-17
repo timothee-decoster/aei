@@ -1,6 +1,6 @@
 <template>
     <div class="nav-right">
-        <img src="@/assets/univ_logo.png" alt="Logo de l'Université" width="100%">
+        <img src="@/assets/univ_logo.png" alt="Logo de l'Université">
         <ul>
             <router-link v-for="(lvl, index) in section" :key="index" :to="`${lvl.path}`" tag="li" 
             @click.native="selectSection(lvl.name)" v-bind:class="{ selected: select === lvl.name }">
@@ -50,12 +50,25 @@ export default {
     height: auto;
     background-color: #cdcdcd;
 }
+img {
+    position: absolute;
+    right: 0;
+    top: 1vh;
+    cursor: pointer;
+    width: 100%;
+    margin: 0;
+}
 ul {
+    position: absolute;
+    top: 13vh;
+    left: 0;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 li {
     text-align: left;
