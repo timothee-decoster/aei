@@ -57,16 +57,24 @@ export default {
     background-color: #cdcdcd;
 }
 img {
+    position: absolute;
+    left: 0;
+    top: 1vh;
     cursor: pointer;
-    width: 50%;
+    width: 60%;
+    height: 20%;
     border-radius: 50%;
-    margin-left: 25%;
+    margin-left: 20%;
 }
 ul {
+    overflow: auto;
+    position: absolute;
+    top: 25vh;
+    left: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     list-style: none;
+    margin: 0;
     padding: 0;
 }
 li {
